@@ -1,0 +1,108 @@
+.display-settings {
+    position: relative;
+    display: inline-block;
+   }
+   
+   
+   .display-button {
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+   }
+   
+   
+   .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   
+   .display-settings:hover .dropdown-menu {
+    display: block;
+   }
+   
+   
+   .dropdown-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+   }
+   
+   
+   .dropdown-item label {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-right: 12px;
+   }
+   
+   
+   .dropdown-item select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+   }
+   
+   
+   .task-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   
+   .task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   
+   
+   .task-id {
+    font-size: 12px;
+    color: #555;
+   }
+   
+   
+   .task-checkbox {
+    transform: scale(1.2);
+   }
+   
+   
+   .task-body {
+    margin-top: 8px;
+   }
+   
+   
+   .task-title {
+    font-size: 16px;
+    font-weight: 500;
+   }
+   
+   
+   .task-footer {
+    margin-top: 8px;
+   }
+   
+   
+   .task-label {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #555;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+   }
+   
